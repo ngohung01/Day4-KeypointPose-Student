@@ -1,10 +1,10 @@
-# Mini guideline - nhóm: ______  |  người gán: ______  |  ngày: ______
+# Mini guideline - nhóm: 201  |  người gán: Ngô Văn Hưng  |  ngày: 16/9
 
 > Điền file này **trong lúc** gán nhãn, không phải sau khi xong. Mỗi lần bạn dừng lại
 > hơn 10 giây để phân vân, đó là một dòng phải ghi vào đây.
 
 ## 1. Luật bắt buộc (đã thống nhất cả lớp - không sửa)
-
+ 
 - Bộ 17 điểm COCO, đúng tên, đúng thứ tự. Lấy từ file `.SVG` chung.
 - Mọi người trong ảnh đều có **đủ 17 điểm**. Điểm không dùng được thì gắn cờ, không xoá.
 - Trái/phải tính theo **cơ thể người**, không theo bức ảnh.
@@ -16,8 +16,8 @@
 
 | Tình huống | Luật nhóm bạn chọn | Vì sao |
 | --- | --- | --- |
-| Hông của người mặc quần áo dài | | |
-| Tai bị tóc hoặc mũ bảo hiểm che một phần | | |
+| Hông của người mặc quần áo dài | Chấm ước lượng dựa vào xương chậu / thắt lưng. Đặt occluded tuỳ vào trường hợp áo che phồng phình làm mất dáng hoặc bị che bởi một thứ khác | |
+| Tai bị tóc hoặc mũ bảo hiểm che một phần |  | |
 | Người bị cắt ở mép ảnh (chỉ thấy từ hông trở lên) | | |
 | Cổ tay nằm sau tay lái / sau thân mình | | |
 | Hai người chồng lên nhau | | |

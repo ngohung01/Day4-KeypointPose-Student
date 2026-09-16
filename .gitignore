@@ -19,3 +19,7 @@ data_colab.yaml
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+venv
+bancungnhom
+
+assets/schema/coco17-cvat-skeleton-mirror.svg
