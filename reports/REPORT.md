@@ -73,10 +73,3 @@ Luật mới đã bổ sung vào `GUIDELINE_MINI.md`: nếu hông còn nằm tro
 ## 5. Một rule evidence đã dùng
 
 Ở `train_04.jpg`, người thứ nhất, `left_wrist` bị cánh tay hoặc vật khác che nên không xác định chắc chắn hướng bàn tay. Tôi lần theo vai, khuỷu tay và đoạn cẳng tay còn nhìn thấy để ước lượng vị trí cổ tay. Vì cổ tay vẫn còn trong khung ảnh, tôi đặt chấm tại vị trí ước lượng và dùng `v=1`, không dùng `v=0`. Nếu khớp thực sự nằm ngoài mép ảnh thì mới dùng `v=0` và không đặt chấm.
-
-## Dữ liệu cần bổ sung nếu nộp bản cuối
-
-- Thời gian gán nhãn tổng hoặc thời gian trung bình mỗi ảnh.
-- Tên bạn cùng nhóm.
-- Tên ảnh test và loại lỗi cụ thể quan sát trong phần dự đoán model.
-- Kết luận từ bảng OKS model-vs-label ở mục cuối notebook cho câu 5.

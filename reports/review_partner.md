@@ -1,6 +1,8 @@
 # Peer review - bài gán nhãn của bạn cùng nhóm
 
-Người gán được kiểm: Chưa cung cấp tên Người kiểm: Ngô Văn Hưng Ngày: 16/9/2026
+Người gán được kiểm: TRƯƠNG CÔNG HOÀI NAM
+Người kiểm: Ngô Văn Hưng 
+Ngày: 16/9/2026
 
 Thư mục bài được kiểm: `bancungnhom/dataset/labels/train`
 
@@ -14,8 +16,9 @@ Thư mục bài được kiểm: `bancungnhom/dataset/labels/train`
 
 ## Reviewer checklist
 
-|     | Mục kiểm                                                            | Đạt?          | Ghi chú / ảnh nào                                                                                                    |
-| --- | ------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------- |
+
+| | Mục kiểm | Đạt? | Ghi chú / ảnh nào |
+| --- | --- | --- | --- |
 | 1   | Mọi người trong ảnh đều có đủ 17 điểm, không ai bị thiếu            | Đạt định dạng | Có 29 skeleton; cần đối chiếu trực quan từng người nếu muốn xác nhận hoàn toàn.                                      |
 | 2   | Bật đường nối: không có xương nào cắt chéo ở vai hoặc hông          | Cần xem ảnh   | Script phát cảnh báo ở `train_02`, người 1, vai và hông; `train_13`, người 2, vai và hông có dấu hiệu đảo trái/phải. |
 | 3   | Không có xương nào kéo dài sang một cơ thể khác                     | Cần xem ảnh   | Cần mở visualization để xác nhận; chưa gọi là lỗi chắc chắn chỉ từ cảnh báo số.                                      |
@@ -28,7 +31,7 @@ Thư mục bài được kiểm: `bancungnhom/dataset/labels/train`
 | 10  | Mọi ca không rõ đều được ghi trong `GUIDELINE_MINI.md`              | Chưa xác minh | Cần đọc guideline của bạn cùng nhóm.                                                                                 |
 | 11  | `check_pose_labels.py` chạy 0 lỗi                                   | Đạt           | Script kết luận `ĐẠT định dạng`; còn 7 cảnh báo không chặn nộp.                                                      |
 
-## Lỗi hoặc cảnh báo cần người gán kiểm tra
+## Lỗi tìm được
 
 | Ảnh            | Người thứ | Khớp                          | Lỗi gì                                                  | Sửa thế nào                                                                                 |
 | -------------- | --------: | ----------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
